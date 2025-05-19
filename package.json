@@ -1,10 +1,13 @@
 {
   "name": "@popstas/cscart-mcp-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MCP server for CS-Cart API integration",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "cscart-mcp-server": "./dist/index.js"
+  },
   "files": [
     "dist"
   ],
