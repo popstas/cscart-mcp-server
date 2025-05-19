@@ -1,6 +1,6 @@
 {
   "name": "@popstas/cscart-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "MCP server for CS-Cart API integration",
   "license": "MIT",
   "type": "module",
@@ -17,6 +17,9 @@
     "prepare": "npm run build",
     "test": "vitest run",
     "mcp-cli": "mcp-inspector --cli npm run dev"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.11.4",
