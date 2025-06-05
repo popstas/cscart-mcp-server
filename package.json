@@ -17,7 +17,7 @@
     "build": "tsc --project tsconfig.json",
     "clean": "rimraf dist",
     "lint": "eslint index.ts",
-    "prepare": "npm run build",
+    "prepare": "npm run build && npm run test && npm run lint",
     "test": "vitest run",
     "mcp-cli": "mcp-inspector --cli npm run dev"
   },
